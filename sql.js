@@ -1,6 +1,8 @@
 var usuario = 37553;
 var pass = 'mi_password';
-`
+
+
+var query = `
   SELECT
     *
   FROM
@@ -9,4 +11,4 @@ var pass = 'mi_password';
     usuario_id = ${usuario}
   AND
     pass = ${pass}
-`
+`;
